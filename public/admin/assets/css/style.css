@@ -4,15 +4,14 @@
    Mail: support@shreethemes.in
    File Description: Main Css file of the template
 */
-@import url('../../../css2.css');
 
 @font-face {
   font-family: iransans;
   font-style: normal;
   font-weight: normal;
-  src: url("../../assets/fonts/1-IranSansWeb/IRANSansWeb.eot");
-  src: url("../../assets/fonts/1-IranSansWeb/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/1-IranSansWeb/IRANSansWeb.woff2") format("woff2"), url("../../assets/fonts/1-IranSansWeb/IRANSansWeb.woff") format("woff"), url("../../assets/fonts/1-IranSansWeb/IRANSansWeb.ttf") format("truetype");
-} 
+  src: url("../fonts/1-IranSansWeb/IRANSansWeb.eot");
+  src: url("../fonts/1-IranSansWeb/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/1-IranSansWeb/IRANSansWeb.woff2") format("woff2"), url("../fonts/1-IranSansWeb/IRANSansWeb.woff") format("woff"), url("../fonts/1-IranSansWeb/IRANSansWeb.ttf") format("truetype");
+}
 .bg-primary {
   background-color: #4259ed !important;
 }
@@ -333,7 +332,7 @@ button:not(:disabled) {
 }
 
 .bg-home {
-  height: 100vh;    
+  height: 100vh;
   background-size: cover;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -857,7 +856,7 @@ button:not(:disabled) {
   display: none !important;
 }
 .twentytwenty-overlay:hover {
-    background: rgba(60, 72, 88, 0.05); 
+    background: rgba(60, 72, 88, 0.05);
 }
 .twentytwenty-handle {
     background: #4259ed;
